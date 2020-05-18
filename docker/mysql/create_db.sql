@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS tag_statistics (
+    tag VARCHAR(255) NOT NULL PRIMARY KEY,
+    tag_count INT NOT NULL
+);
